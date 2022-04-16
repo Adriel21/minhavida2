@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+*,*::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #F2F2F2;
+    font-family: 'Baskervville';
+    color: #fff;
+}
+
+/*.logo {
+    
+}*/
+/*mobile*/
+img, iframe {
+ width:100%; 
+ padding: 0;
+ margin: 0;
+}
+/*Início do header*/
+
+.logo {
+    margin-top: -30px;
+
+}
+
+.logo h1 {
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: hsla(0, 6%, 76%, 20%);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
+}
+
+nav a {
+    color: #0D0D0D;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #262626;
+    color: #F2F0F0;
+    padding: 5px;
+}
+
+/*fim do header*/
+
+/*Início main página inicial*/
+
+
+
+
+
+
+main h1{
+    color: #F2F2F2;
+    font-size: 25px;
+    text-align: center; 
+    background-color: #403A2F;
+}
+
+main h2 {
+    color: #F2F2F2;
+    background-color:#403A2F ;
+}
+
+p{
+    color: #403A2F; 
+    text-indent: 15px;
+    margin-bottom: -12px
+}
+
+
+
+/*fim do main da página inicial*/
+
+/*main da galeria*/
+.tempo {
+    margin-top: 70px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.col1 {
+    width: 35%;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pimage {
+    text-align: center;
+    width: 35%;
+    
+}
+/*Fim do main da galeria*/
+
+
+
+
+/*main dos contatos*/
+
+.conheca{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+.pimagecontatos {
+    width: 70%;
+   margin: 0 auto;
+  
+    
+}
+
+
+.colrede1 ul {
+    display: flex;
+    margin: 20px 0 0 0;
+    list-style: none;
+
+}
+.colrede1 ul li{
+    width: 60%;
+   
+}
+.colrede1 img {
+    width: 25%;
+    
+}
+
+.videos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+.poemas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
+    /* text-align: justify; */
+}
+
+.p3 {
+    margin-top: 15px;
+}
+
+.recite {
+    margin-top: 40px;
+}
+
+
+/*fim do main dos contatos*/
+/*fim do mobile*/ 
+
+@media screen and (min-width: 750px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+    }
+
+
+    .logo h1{
+        width: 80%;
+    }
+    .logo {
+        margin-top: 15px;
+        width: 60%;
+        max-width: 600px;
+        
+    }
+
+    header nav {
+        width: 85%;
+         /* max-width: 800px;   Padrão para afirmar que não pode ser ultrapassado de 800px */ 
+       
+    }
+
+    .apres{
+        margin-top: 10px;
+    }
+
+    /*media de galeria*/
+    .pimage{
+        width: 20%;
+    }
+
+    .pimagecontatos {
+        width: 60%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+
+    /* .conheca {
+        display: flex;
+    } */
+
+    .descricao {
+        margin-left: 15px;
+        
+    }
+
+    .conheca {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .colrede1 {
+        width: 40%;
+        margin-top: 50px;
+    }
+
+    .videos{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin:0;
+        padding: 0;
+    }
+    iframe {
+        width: 40%;
+        }
+ 
+
+    .poemas{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+.poemas p {
+    margin-right: 5px;
+}
+
+.recite {
+    margin-top: 40px;
+    padding: 0;
+    width: 100%;
+   text-align: center;
+   
+}
+
+     }
+
+
+
+
+    
